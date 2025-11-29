@@ -1,0 +1,162 @@
+/* Sets the page appearance */
+body {
+    background-color: rgb(21, 21, 123);
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Sets Styles for the header section */
+header {
+    margin: 20px;
+    text-align: center; /* centers all header content */
+}
+
+/* Sets Styles for the main content */
+main {
+    margin: 30px auto; /* keeps some space around the content */
+    width: 80%;
+    max-width: 700px;
+    padding: 20px; /* keeps space inside the text area */
+}
+
+/* Sets Styles for navigation links */
+nav a {
+    background-color: whitesmoke;
+    color: rgb(21, 21, 123);
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: rgb(192, 192, 255);
+}
+
+/* Styles for spacing between each form field */
+form div {
+    margin-bottom: 15px; /* spacing between each field for all forms */
+}
+
+/* Styles for all text boxes, number boxes, dropdowns, and text areas */
+input[type="text"],input[type="number"],select,textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem; 
+}
+
+/* Styles for the Submit button */
+input[type="submit"] {
+    background-color: whitesmoke;
+    color: rgb(21, 21, 123);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem; 
+}
+
+/* Hover effect for Submit button */
+input[type="submit"]:hover {
+    background-color: rgb(180, 180, 255);
+}
+
+/* Styles for displaying validation messages in yellow font */
+.error {
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+/* Centers and adds space around the welcome image on the homepage */
+.welcome-image {
+    margin: 15px 0;
+    text-align: center; /* centers image horizontally */
+}
+
+/* Styles for the company description text */
+.company-description {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Generic class for centering text horizontally */
+.center-text {
+    text-align: center;
+}
+
+/* Styles for countdown numbers box */
+#divCountdown {
+    display: flex; /* flexbox */
+    justify-content: center; /* centers horizontally */
+    align-items: center; /* centers vertically */
+    font-size: 1.5rem; 
+    background-color: rgba(255, 255, 255, 0.1); /* subtle transparent box */
+    padding: 15px 25px; /* padding around the countdown */
+    border-radius: 10px; /* rounded corners */
+    margin: 0 auto 15px auto; /* centers horizontally with space below */
+    width: fit-content; /* shrink to fit content */
+    text-align: center; /* centers text inside box */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* shadow */
+}
+
+/* Styles the countdown message text */
+#divCountdownMessage {
+    text-align: center;   
+    font-size: 1.2rem;    
+    margin-top: 10px;     /* adds space above the message */
+}
+
+/* secure.php page styling */
+.secure-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+/* Login form field */
+.login-container {
+    width: 400px; 
+    margin: 0 auto; /* centers the form block horizontally */
+    display: flex;
+    flex-direction: column; /* stack input fields vertically */
+    gap: 15px; /* vertical spacing between each field */
+}
+
+/* labels and inputs inside form fields */
+.login-container div {
+    display: flex;
+    flex-direction: column; /* stack label and input vertically */
+}
+
+/* Styles for all inputs inside login form */
+.login-container input,
+.login-container button {
+    font-size: 1rem; 
+    padding: 8px; 
+}
+
+/* Centers and styles the login button */
+.login-container button {
+    width: 120px; 
+    margin: 10px auto; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+}
+
+/* Centers login heading with proper spacing */
+.login-heading {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+/* Centers login message (success or fail) */
+.login-message {
+    text-align: center; 
+    color: red; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
